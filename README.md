@@ -3,6 +3,10 @@ Touch Extrapolation MLP
 
 The dataset to train neural networks which extrapolate the movement of a finger on a touchscreen was collected by Henze et al.[1-2]. You can find more details on their papers or [repository](https://github.com/interactionlab/MobileHCI17-Touch-Extrapolation).
 
+## Model Diagram
+
+![model](docs/touch_extrapolation_model.png)
+
 ## Result
 
 The experiments were conducted on varying window sizes. Our experiments showed that window size of 11 gives the lowest prediction error.
@@ -20,6 +24,12 @@ The experiments were conducted on varying window sizes. Our experiments showed t
 | **11** | **0.04** | **0.20** |
 | 12 | 0.54 | 0.74 |
 | 13 | 0.03 | 0.16 |
+
+## Prerequisites
+
+- tensorflow r1.13
+- matplotlib
+- numpy
 
 ## References
 
